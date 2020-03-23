@@ -13,20 +13,24 @@ footer {
 }
 
 header {
-    width: auto;
+    width: 940px;
     height: auto;
     margin-left: 160px;
     margin-right: 160px;
 }
 
 article {
-    width: auto;
+    width: 940px;
     height: auto;
     margin-left: 160px;
     margin-right: 160px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
 }
 
-#line {
+#btn_area #line {
     width: 1px;
     height: 25px;
     background-color: #778a50;
@@ -68,12 +72,15 @@ article {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
-    font-family: Arial;
+    font-family: Arial Bold;
     font-weight: bold;
     font-size: 14px;
     color: #778a50;
     text-align:center;
     line-height: 25px;
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    border-color: #778a50;
 }
 
 #join {
@@ -82,12 +89,15 @@ article {
     margin-top: 0px;
     margin-bottom: 17px;
     margin-left: 10px;
-    font-family: Arial;
+    font-family: Arial Bold;
     font-weight: bold;
     font-size: 14px;
     color: #778a50;
     text-align:center;
     line-height: 25px;
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    border-color: #778a50;
 }
 
 #list {
@@ -107,12 +117,88 @@ article {
     font-size: 16px;
     line-height: 16px;
     color: #edf2c5;
-    font-family: Arial;
+    font-family: Arial Black;
     
 }
 
+#left {
+    width: 445px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
 .box {
+    height: 45px;
+    width: 445px;
     border: 1px solid #778a50;
     border-radius: 3px;
     border-color: #778a50;
+    background-color: #778a50;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-family: Arial Black;
+    color: #edf2c5;
+}
+
+#pumpking {
+    height: 448px;
+    width: 940px;
+    margin: 0px 160px 0px 160px;
+}
+
+.box img {
+    height: 140px;
+    width: 140px;
+}
+
+#text {
+    height: 124px;
+    width: 415px;
+    background-color: #f7fbda;
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#text p {
+    font-size: 12px;
+    font-family: ArialMT Regular;
+    color: #7d7d7d;
+    margin: 0px 0px 0px 0px;
+}
+
+#text #line {
+    height: 1px;
+    width: 414px;
+    background-color: #7d7d77;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#text .top{
+    line-height: 1.33;
+}
+
+#text .button {
+    line-height: 1.83;
+}
+
+footer p {
+    font-family: ArialMT Regular;
+    font-size: 12px;
+    color: #edf2c5;
+    line-height: 12px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
